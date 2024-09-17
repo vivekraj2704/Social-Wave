@@ -1,45 +1,49 @@
-# 12+ Hour MERN Masterclass: Build and Deploy a Threads App with Real-Time Chat Functionality
+# Social Wave - A Threads Clone
 
-![Demo App](https://i.ibb.co/BnGdh10/Group-62.png)
+Social Wave is a feature-rich social media application inspired by Threads, built using the MERN stack (MongoDB, Express.js, React, Node.js) along with Socket.io for real-time communication and Chakra UI for an elegant, responsive design.
 
-[Video Tutorial on Youtube](https://youtu.be/G4V4xO9wyD8)
+## Features
+-  **Tech Stack**: MERN + Socket.io + Chakra UI
+-  **Authentication & Authorization**: Secure user authentication with JWT.
+-  **Create Post**: Share your thoughts with the world.
+-  **Delete Post**: Remove posts when needed.
+-  **Like/Unlike Post**: Engage with posts by liking or unliking.
+-  **Comment on Posts**: Share your views by commenting on posts.
+-  **Follow/Unfollow Users**: Stay connected with people you care about.
+-  **Freeze Account**: Temporarily deactivate your account when required.
+-  **Dark/Light Mode**: Toggle between dark and light modes for a personalized experience.
+-  **Responsive Design**: Enjoy seamless user experience on any device.
+-  **Chat App with Image Support**: Chat with users and share images in real time.
+-  **Seen/Unseen Status for Messages**: Know when your messages have been read.
+-  **Notification Sounds**: Stay alert with real-time notification sounds.
 
-Feature List:
+## Installation
 
--   🌟 Tech stack: MERN + Socket.io + Chakra UI
--   🎃 Authentication & Authorization with JWT
--   📝 Create Post
--   🗑️ Delete Post
--   ❤️ Like/Unlike Post
--   💬 Comment to a Post
--   👥 Follow/Unfollow Users
--   ❄️ Freeze Your Account
--   🌓 Dark/Light Mode
--   📱 Completely Responsive
--   💬 Chat App With Image Support
--   👀 Seen/Unseen Status for Messages
--   🔊 Notification sounds
--   ⭐ Deployment for FREE
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/vivekraj2704/Social-Wave.git
+    cd social-wave
+    ```
 
-### Setup .env file
+2. Install dependencies for both client and server:
+    ```bash
+    npm install
+    cd client
+    npm install
+    ```
 
-```js
-PORT=...
-MONGO_URI=...
-JWT_SECRET=...
-CLOUDINARY_CLOUD_NAME=...
-CLOUDINARY_API_KEY=...
-CLOUDINARY_API_SECRET=...
-```
+3. Set up environment variables. Create a `.env` file in the root directory with the following:
+    ```bash
+    PORT=...
+    MONGO_URI=...
+    JWT_SECRET=...
+    CLOUDINARY_CLOUD_NAME=...
+    CLOUDINARY_API_KEY=...
+    CLOUDINARY_API_SECRET=...
+    ```
 
-### Build the app
+## Running the Application
 
-```shell
+### Build the App:
+```bash
 npm run build
-```
-
-### Start the app
-
-```shell
-npm start
-```
